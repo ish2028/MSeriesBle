@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSeriesBle_Example' do
+  pod 'MSeriesBle', :path => '../'
+
+  target 'MSeriesBle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

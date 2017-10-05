@@ -1,9 +1,5 @@
 # MSeriesBle
 
-[![Version](https://img.shields.io/cocoapods/v/MSeriesBle.svg?style=flat)](http://cocoapods.org/pods/MSeriesBle)
-[![License](https://img.shields.io/cocoapods/l/MSeriesBle.svg?style=flat)](http://cocoapods.org/pods/MSeriesBle)
-[![Platform](https://img.shields.io/cocoapods/p/MSeriesBle.svg?style=flat)](http://cocoapods.org/pods/MSeriesBle)
-
 ## Getting Started
 This library uses notification dispatch mechanism to receive data.  Start by getting a shared instance of `MSBluetooth`. 
 

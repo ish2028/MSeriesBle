@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'MSeriesBle'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = 'Listens for Keiser\'s M Series Bike line.'
 
 # This description is used to generate tags and improve search results.

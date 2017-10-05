@@ -40,7 +40,7 @@ public class MSBluetooth: NSObject, CBCentralManagerDelegate {
         bleCentralManager = CBCentralManager.init(delegate: self, queue: nil)
     }
     
-    func cleanUpDiscoveredBikes() {
+    @objc func cleanUpDiscoveredBikes() {
         let machinesAvailable = discoveredBikes.filter({$0.lastReceivedTime.timeIntervalSinceNow >= -60})
         if (!machinesAvailable.elementsEqual(discoveredBikes, by: { (available, discovered) -> Bool in
             return available == discovered

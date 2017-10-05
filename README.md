@@ -52,11 +52,6 @@ NotificationCenter.default.addObserver(
 
 `notification.userInfor` contains a `broadcast` key that is an instance of `MSBLEMachineBroadcast`.  This object contains the parsed data from the bike.
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-
 ## Installation
 
 MSeriesBle is available through [CocoaPods](http://cocoapods.org). To install

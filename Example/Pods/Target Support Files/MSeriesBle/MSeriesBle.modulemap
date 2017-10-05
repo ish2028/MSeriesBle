@@ -1,0 +1,6 @@
+framework module MSeriesBle {
+  umbrella header "MSeriesBle-umbrella.h"
+
+  export *
+  module * { export * }
+}

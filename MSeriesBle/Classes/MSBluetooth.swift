@@ -13,7 +13,6 @@ public class MSBluetooth: NSObject, CBCentralManagerDelegate {
     
     private var bleCentralManager: CBCentralManager!;
     private var cleanUpTimer: Timer?
-    private var cycleTimer: Timer?
     public var focusedBikeId: Int?
     
     public var discoveredBikes = [(machineBroadcast: MSBLEMachineBroadcast, lastReceivedTime: Date)]() {

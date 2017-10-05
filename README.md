@@ -39,7 +39,7 @@ NotificationCenter.default.addObserver(
 ```
 
 ### Listening to a specific bike
-To list to a specific bike simply set the `focusedBikeId` on `MSBluetooth` and register to receive notifications using
+To listen to a specific bike simply set the `focusedBikeId` on `MSBluetooth` and register to receive notifications using
 ```
 NotificationCenter.default.addObserver(
             forName: NSNotification.Name(MSBluetooth.BluetoothConnectionNotifications.BluetoothConnectionDidReceiveMachineBroadcast),
@@ -50,7 +50,7 @@ NotificationCenter.default.addObserver(
         }
 ```
 
-`notification.userInfor` contains a `broadcast` key that is an instance of `MSBLEMachineBroadcast`.  This object contains the parsed data from the bike.
+`notification.userInfo` contains a `broadcast` key that is an instance of `MSBLEMachineBroadcast`.  This object contains the parsed data from the bike.
 
 ## Installation
 
